@@ -1,0 +1,67 @@
+# Core LangChain packages
+langchain>=0.2.5
+langchain-core>=0.2.7
+langchain-community>=0.2.5
+langchain-text-splitters>=0.2.0
+
+# LLM Providers
+langchain-openai>=0.1.0
+langchain-groq>=0.1.6
+langchain-google-genai>=0.1.0
+langchain_huggingface>=0.0.3
+langchain_chroma>=0.1.0
+
+# Environment and Configuration
+python-dotenv>=1.0.0
+
+# Jupyter and Development
+ipykernel>=6.0.0
+
+# Document Processing
+pypdf>=4.0.0
+pymupdf>=1.23.0
+bs4>=0.0.1
+unstructured>=0.10.0
+
+# Web and API
+requests>=2.31.0
+streamlit>=1.35.0
+fastapi>=0.100.0
+uvicorn>=0.23.0
+langserve>=0.2.0
+
+# Vector Stores and Embeddings
+chromadb>=0.4.0
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.0
+
+# Database
+duckdb>=0.8.0
+mysql-connector-python>=8.1.0
+SQLAlchemy>=2.0.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Search and Retrieval
+arxiv>=1.4.0
+wikipedia>=1.4.0
+duckduckgo-search==5.3.1b1
+
+# Validation and Utilities
+validators==0.28.1
+youtube-transcript-api>=0.6.0
+pytube>=15.0.0
+numexpr>=2.8.0
+
+# Hugging Face
+huggingface-hub>=0.16.0
+
+# OpenAI
+openai>=1.0.0
+
+# Additional utilities
+operator
+os
+json
