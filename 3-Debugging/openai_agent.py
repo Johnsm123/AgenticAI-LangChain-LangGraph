@@ -27,7 +27,7 @@ def make_default_graph():
 
     def call_model(state):
         return {"messages":[model.invoke(state['messages'])]}
-    
+
     graph_workflow.add_node("agent", call_model)
     graph_workflow.add_edge("agent", END)
     graph_workflow.add_edge(START, "agent")
@@ -66,4 +66,3 @@ def make_alternative_graph():
     return agent
 
 agent=make_default_graph()
-
